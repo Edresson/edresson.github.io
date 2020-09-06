@@ -1,0 +1,54 @@
+<!-- Footer -->
+<div id="footer">
+  
+<!-- Social Icons -->
+<ul class="icons">
+  {%- if site.medium_url -%}
+  <li><a href="{{- site.medium_url -}}" target="_blank" class="icon fa-medium fa-lg"><span class="label">Medium</span></a></li>
+  {%- endif -%}
+  {%- if site.twitter_url -%}
+  <li><a href="{{- site.twitter_url -}}" target="_blank" class="icon fa-twitter fa-lg"><span class="label">Twitter</span></a></li>
+  {%- endif -%}
+  {%- if site.facebook_url -%}
+  <li><a href="{{- site.facebook_url -}}" target="_blank" class="icon fa-facebook fa-lg"><span class="label">Facebook</span></a></li>
+  {%- endif -%}
+  {%- if site.googleplus_url -%}
+  <li><a href="{{- site.googleplus_url -}}" target="_blank" class="icon fa-google fa-lg-plus"><span class="label">Google Plus</span></a></li>
+  {%- endif -%}
+  {%- if site.linkedin_url -%}
+  <li><a href="{{- site.linkedin_url -}}" target="_blank" class="icon fa-linkedin fa-lg"><span class="label">LinkedIn</span></a></li>
+  {%- endif -%}
+  {%- if site.github_url -%}
+  <li><a href="{{- site.github_url -}}" target="_blank" class="icon fa-github fa-lg"><span class="label">GitHub</span></a></li>
+  {%- endif -%}
+  {%- if site.pinterest_url -%}
+  <li><a href="{{- site.pinterest_url -}}" target="_blank" class="icon fa-pinterest fa-lg"><span class="label">Pinterest</span></a></li>
+  {%- endif -%}
+  {%- if site.slack_url -%}
+  <li><a href="{{- site.slack_url -}}" target="_blank" class="icon fa-slack fa-lg"><span class="label">Slack</span></a></li>
+  {%- endif -%}
+  {%- if site.dribbble_url -%}
+  <li><a href="{{- site.dribbble_url -}}" target="_blank" class="icon fa-dribbble fa-lg"><span class="label">Dribbble</span></a></li>
+  {%- endif -%}
+  {%- if site.instagram_url -%}
+  <li><a href="{{- site.instagram_url -}}" target="_blank" class="icon fa-instagram fa-lg"><span class="label">Instagram</span></a></li>
+  {%- endif -%}
+  {%- if site.wordpress_url -%}
+  <li><a href="{{- site.wordpress_url -}}" target="_blank" class="icon fa-wordpress fa-lg"><span class="label">Wordpress</span></a></li>
+  {%- endif -%}
+  {%- if site.email -%}
+  <li><a href="mailto:{{- site.email -}}" target="_blank" class="icon fa-envelope fa-lg"><span class="label">Email</span></a></li>
+  {%- endif -%}
+</ul>
+
+<div></div>
+  <!-- Copyright -->
+  <ul class="copyright">
+    {% if site.title or site.author %}
+      <li>&copy; {{- site.title | default: site.author -}}. All rights reserved.</li>
+    {% endif %}
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+  </ul>
+  
+</div>
